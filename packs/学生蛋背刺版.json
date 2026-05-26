@@ -1,22 +1,30 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "学生蛋背刺版",
-    "name":  "学生蛋背刺版",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "学生蛋背刺版",
-    "entries":  [
-                    "@{name}   你已被学生蛋使用SSNG月卡版击败！ 学生蛋是无敌的",
-                    "@{name}   使用低保钱购买SSNG并且打败你！",
-                    "@{name}   获取SSNG以助于我的IQ降低！",
-                    "@{name}   巧夺浮木金币获得SSNG神力！",
-                    "@{name}   跑遍圈子乞讨以获得SSNG而且打爆你！",
-                    "@{name}   鹿完一发使用SSNG以助于萎缩！",
-                    "@{name}   你翻遍群公告发现要付费恼羞成怒的开启SSNG打爆你！",
-                    "@{name}   没有老登管教的学生蛋正在布吉岛打败你！",
-                    "@{name}   使用公益客户端的你已被学生蛋用的SSNG打爆！",
-                    "@{name}   没有SSNG的你已经跟不上学生蛋的脚步！",
-                    "@{name}   拥有老登金币的学生蛋火速购买月卡获得神力!"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "学生蛋背刺版",
+  "name": "学生蛋背刺版",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "学生蛋背刺版",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "@{name}   你已被学生蛋使用SSNG月卡版击败！ 学生蛋是无敌的",
+    "@{name}   使用低保钱购买SSNG并且打败你！",
+    "@{name}   获取SSNG以助于我的IQ降低！",
+    "@{name}   巧夺浮木金币获得SSNG神力！",
+    "@{name}   跑遍圈子乞讨以获得SSNG而且打爆你！",
+    "@{name}   鹿完一发使用SSNG以助于萎缩！",
+    "@{name}   你翻遍群公告发现要付费恼羞成怒的开启SSNG打爆你！",
+    "@{name}   没有老登管教的学生蛋正在布吉岛打败你！",
+    "@{name}   使用公益客户端的你已被学生蛋用的SSNG打爆！",
+    "@{name}   没有SSNG的你已经跟不上学生蛋的脚步！",
+    "@{name}   拥有老登金币的学生蛋火速购买月卡获得神力!"
+  ]
 }

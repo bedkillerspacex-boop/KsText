@@ -1,18 +1,26 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "扫福瑞被干版",
-    "name":  "扫福瑞被干版",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "扫福瑞被干版",
-    "entries":  [
-                    "@{name}  伟大的南方主人将你绿玩扫福瑞干死！",
-                    "@{name}  我去！发现野生绿玩扫福瑞！",
-                    "@{name}  伟大的南方主人干死你个客服臭福瑞！",
-                    "@{name}  使用SSNG将你扫福瑞拉去军训！",
-                    "@{name}  可恶的妖猫扫福瑞无法阻挡南方大军！",
-                    "@{name}  冷知识其实妖猫私下是个臭福瑞！",
-                    "@{name}  你个绿玩臭福瑞已被SSNG击毙！"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "扫福瑞被干版",
+  "name": "扫福瑞被干版",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "扫福瑞被干版",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "@{name}  伟大的南方主人将你绿玩扫福瑞干死！",
+    "@{name}  我去！发现野生绿玩扫福瑞！",
+    "@{name}  伟大的南方主人干死你个客服臭福瑞！",
+    "@{name}  使用SSNG将你扫福瑞拉去军训！",
+    "@{name}  可恶的妖猫扫福瑞无法阻挡南方大军！",
+    "@{name}  冷知识其实妖猫私下是个臭福瑞！",
+    "@{name}  你个绿玩臭福瑞已被SSNG击毙！"
+  ]
 }

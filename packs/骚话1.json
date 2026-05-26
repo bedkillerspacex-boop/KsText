@@ -1,19 +1,27 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "骚话1",
-    "name":  "骚话1",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "骚蛋killsay 目前没人更新",
-    "entries":  [
-                    "{name}不要这么对姐姐，姐姐的里面都湿了",
-                    "Ｌ {name}!",
-                    "{name} 弟弟可真是厉害啊，把姐姐都塞满了",
-                    "{name}真的不行了姐姐要出来了，不要~",
-                    "{name} 真的这么想要得到姐姐的扫穴吗~",
-                    "{name} 弟弟的蟒蛇真是长呢，让姐姐都玩爽了",
-                    "{name} 怎么了？想让姐姐好好服侍你吗",
-                    "{name} 啊不要弟弟，姐姐都流出来了"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "骚话1",
+  "name": "骚话1",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "骚蛋killsay 目前没人更新",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "{name}不要这么对姐姐，姐姐的里面都湿了",
+    "Ｌ {name}!",
+    "{name} 弟弟可真是厉害啊，把姐姐都塞满了",
+    "{name}真的不行了姐姐要出来了，不要~",
+    "{name} 真的这么想要得到姐姐的扫穴吗~",
+    "{name} 弟弟的蟒蛇真是长呢，让姐姐都玩爽了",
+    "{name} 怎么了？想让姐姐好好服侍你吗",
+    "{name} 啊不要弟弟，姐姐都流出来了"
+  ]
 }

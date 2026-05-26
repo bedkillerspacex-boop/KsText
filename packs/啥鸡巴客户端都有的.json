@@ -1,26 +1,34 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "啥鸡巴客户端都有的",
-    "name":  "啥鸡巴客户端都有的",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "KillSay全家福整合版",
-    "entries":  [
-                    "!{name} 你已被 Asaka 客户端击毙",
-                    "!{name} 你已被 Xylitol 客户端击毙",
-                    "!{name} 你已被 Autumn 客户端击毙",
-                    "!{name} 你已被 CatBounce 客户端击毙",
-                    "!{name} 你已被 Titan 客户端击毙",
-                    "!{name} 你已被 Dream more 客户端击毙",
-                    "!{name} 你已被 Wave 客户端击毙",
-                    "!{name} 你已被 Proton 客户端击毙",
-                    "!{name} 你已被 Forever 客户端击毙",
-                    "!{name} 你已被 UniqueX 客户端击毙",
-                    "!{name} 你已被 笙歌 客户端击毙",
-                    "!{name} 你已被 Magic 客户端击毙",
-                    "!{name} 你已被 Moral 客户端击毙",
-                    "!{name} 你已被 follow 客户端击毙",
-                    "!{name} 你已被 arctic 客户端击毙"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "啥鸡巴客户端都有的",
+  "name": "啥鸡巴客户端都有的",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "KillSay全家福整合版",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "!{name} 你已被 Asaka 客户端击毙",
+    "!{name} 你已被 Xylitol 客户端击毙",
+    "!{name} 你已被 Autumn 客户端击毙",
+    "!{name} 你已被 CatBounce 客户端击毙",
+    "!{name} 你已被 Titan 客户端击毙",
+    "!{name} 你已被 Dream more 客户端击毙",
+    "!{name} 你已被 Wave 客户端击毙",
+    "!{name} 你已被 Proton 客户端击毙",
+    "!{name} 你已被 Forever 客户端击毙",
+    "!{name} 你已被 UniqueX 客户端击毙",
+    "!{name} 你已被 笙歌 客户端击毙",
+    "!{name} 你已被 Magic 客户端击毙",
+    "!{name} 你已被 Moral 客户端击毙",
+    "!{name} 你已被 follow 客户端击毙",
+    "!{name} 你已被 arctic 客户端击毙"
+  ]
 }

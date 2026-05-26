@@ -1,26 +1,34 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "神秘音游老资历",
-    "name":  "神秘音游老资历",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "KillSay全家福整合版",
-    "entries":  [
-                    "{name} 不让我玩Phigros，我忍了",
-                    "{name} 不让我玩节奏大师，我忍了",
-                    "{name} 不让我玩喵斯快跑，我忍了",
-                    "{name} 不让我玩PJSK，我忍了",
-                    "{name} 不让我玩旋转音律，我忍了",
-                    "{name} 不让我玩Arcaea，我忍了",
-                    "{name} 不让我去玩舞立方，我忍了",
-                    "{name} 不让我去玩舞战绩，我忍了",
-                    "{name} 不让我去玩中二节奏，我忍了",
-                    "{name} 不让我去玩乐动魔方，我忍了",
-                    "{name} 不让我玩华卡音舞，我忍了",
-                    "{name} 不让我去玩太鼓达人，我忍了",
-                    "{name} 不让我去玩E舞，我忍了",
-                    "{name} 不让我玩舞萌DX，我不忍了",
-                    "{name} 我想玩舞萌DX"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "神秘音游老资历",
+  "name": "神秘音游老资历",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "KillSay全家福整合版",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "{name} 不让我玩Phigros，我忍了",
+    "{name} 不让我玩节奏大师，我忍了",
+    "{name} 不让我玩喵斯快跑，我忍了",
+    "{name} 不让我玩PJSK，我忍了",
+    "{name} 不让我玩旋转音律，我忍了",
+    "{name} 不让我玩Arcaea，我忍了",
+    "{name} 不让我去玩舞立方，我忍了",
+    "{name} 不让我去玩舞战绩，我忍了",
+    "{name} 不让我去玩中二节奏，我忍了",
+    "{name} 不让我去玩乐动魔方，我忍了",
+    "{name} 不让我玩华卡音舞，我忍了",
+    "{name} 不让我去玩太鼓达人，我忍了",
+    "{name} 不让我去玩E舞，我忍了",
+    "{name} 不让我玩舞萌DX，我不忍了",
+    "{name} 我想玩舞萌DX"
+  ]
 }

@@ -1,26 +1,34 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "鬼窝我爱你",
-    "name":  "鬼窝我爱你",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "鬼窝我爱你",
-    "entries":  [
-                    "@{name}   妈! 我在直播",
-                    "@{name}   注入~注入",
-                    "@{name}   我去了，必须注入VAPE拉满reach打回去",
-                    "@{name}   你已被吴旭淳使用VAPE打败！",
-                    "@{name}   guiwow你是不败的传奇guiwow",
-                    "@{name}   任凭fly飞的再快也钻入不了你的怀抱",
-                    "@{name}   reach拉的再长也touch不到你的手心",
-                    "@{name}   speed可以追逐你的身影却无法让你放慢离开的脚步",
-                    "@{name}   freecam的我虽是冰冷可遇到你的那颗心仍是炽热",
-                    "@{name}   hitbox我尽最大努力接近你却始终无法触摸到你",
-                    "@{name}   tracer我发疯一般追寻你的足迹却始终无法企及你的爱意",
-                    "@{name}   timer可以让时间变慢可今生却无法与你一同终老",
-                    "@{name}   nofall没有摔落伤害可却免疫不了因你而生的心痛",
-                    "@{name}   velocity开的再大也无法待在你的身边",
-                    "@{name}   VAPE圈的再多也不如你的心贵"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "鬼窝我爱你",
+  "name": "鬼窝我爱你",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "鬼窝我爱你",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "@{name}   妈! 我在直播",
+    "@{name}   注入~注入",
+    "@{name}   我去了，必须注入VAPE拉满reach打回去",
+    "@{name}   你已被吴旭淳使用VAPE打败！",
+    "@{name}   guiwow你是不败的传奇guiwow",
+    "@{name}   任凭fly飞的再快也钻入不了你的怀抱",
+    "@{name}   reach拉的再长也touch不到你的手心",
+    "@{name}   speed可以追逐你的身影却无法让你放慢离开的脚步",
+    "@{name}   freecam的我虽是冰冷可遇到你的那颗心仍是炽热",
+    "@{name}   hitbox我尽最大努力接近你却始终无法触摸到你",
+    "@{name}   tracer我发疯一般追寻你的足迹却始终无法企及你的爱意",
+    "@{name}   timer可以让时间变慢可今生却无法与你一同终老",
+    "@{name}   nofall没有摔落伤害可却免疫不了因你而生的心痛",
+    "@{name}   velocity开的再大也无法待在你的身边",
+    "@{name}   VAPE圈的再多也不如你的心贵"
+  ]
 }

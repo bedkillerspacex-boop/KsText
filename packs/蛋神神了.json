@@ -1,20 +1,28 @@
-﻿{
-    "schemaVersion":  1,
-    "id":  "蛋神神了",
-    "name":  "蛋神神了",
-    "author":  "佚名",
-    "version":  1,
-    "updatedAt":  "2026-05-25T13:17:03Z",
-    "description":  "蛋神神了",
-    "entries":  [
-                    "@{name}  我能打上海 Major！",
-                    "@{name}  这就是亚一狙的 Peek！",
-                    "@{name}  空悲切！",
-                    "@{name}  你们有没有发现？主播的侧脸像吴世勋！",
-                    "@{name}  我就是个蛋 蛋啊",
-                    "@{name}  we are Falcons ~~~~~",
-                    "@{name}  谁特么说Danking死了，害老子昨天晚上高兴一晚上",
-                    "@{name}  diss康哥?",
-                    "@{name}  蛋神神了！"
-                ]
+{
+  "schemaVersion": 1,
+  "id": "蛋神神了",
+  "name": "蛋神神了",
+  "author": "佚名",
+  "version": 1,
+  "updatedAt": "2026-05-25T13:17:03Z",
+  "description": "蛋神神了",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "@{name}  我能打上海 Major！",
+    "@{name}  这就是亚一狙的 Peek！",
+    "@{name}  空悲切！",
+    "@{name}  你们有没有发现？主播的侧脸像吴世勋！",
+    "@{name}  我就是个蛋 蛋啊",
+    "@{name}  we are Falcons ~~~~~",
+    "@{name}  谁特么说Danking死了，害老子昨天晚上高兴一晚上",
+    "@{name}  diss康哥?",
+    "@{name}  蛋神神了！"
+  ]
 }
