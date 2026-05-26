@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-26T12:09:26Z",
+  "generatedAt": "2026-05-26T12:25:45Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -16,29 +16,10 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 26,
       "sha256": "73257271456e9aaf4ca4e2a70c47707b719fb3e0f3e4552ab16799987cf4ea89",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B21%20bsk.json"
-    },
-    {
-      "id": "bwm歌曲三代",
-      "name": "BWM歌曲三代",
-      "author": "佚名",
-      "summary": "BWM广告歌曲宣传 停更",
-      "language": "zh-CN",
-      "tags": [
-        "killsay",
-        "community"
-      ],
-      "serverTags": [
-        "generic"
-      ],
-      "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
-      "entryCount": 35,
-      "sha256": "4cb5fd474dcc22b2f3353209ae25ee52a495162a39d7d9192b8b31c10c63369b",
-      "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B2%E4%B8%89%E4%BB%A3.json"
     },
     {
       "id": "bwm歌曲二代",
@@ -54,7 +35,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 35,
       "sha256": "8c45b2c65700acee5d8ac45a526e6b3ebf79a48fd3e427dcf3c023d26b95cf6e",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B2%E4%BA%8C%E4%BB%A3.json"
@@ -73,7 +54,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 9,
       "sha256": "f5798db00aa56a91bde4d6bec8e206b925343a4158dedfb3ebafc12256a3f6af",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/PE%E5%B0%8F%E5%AD%90%E7%9C%9F%E5%AE%9E%E8%AE%B0%E5%BD%95.json"
@@ -92,7 +73,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 20,
       "sha256": "7d77e3179aca7cac5a8e661de9eebf9229fcf69903afe05ed86c0c87f553c3b9",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E4%BC%A4%E6%84%9F%E7%89%881.json"
@@ -111,7 +92,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 17,
       "sha256": "cca921701350ed427c0b3da4b2b4a15188fbd2bd8a01b4b0199fe87505a7e699",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E4%BD%95%E6%84%8F%E5%91%B3%E4%BF%84%E7%BD%97%E6%96%AF%E8%AF%AD%E9%9F%B3%20%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF%E4%BA%BA.json"
@@ -130,7 +111,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 42,
       "sha256": "31bf14e6a48eb081e189d3cc2d336b315ca40bd28bbd51a3b830f64625fa8bf7",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%91%A8%E6%9D%B0%E4%BC%A6%E8%8A%B1%E6%B5%B7%E6%AD%8C%E8%AF%8D.json"
@@ -149,7 +130,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 15,
       "sha256": "3cb82940054ae60b4e4823059fe551860a08d04ad2b80b7c31d93e7f76ce489f",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%95%A5%E9%B8%A1%E5%B7%B4%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%83%BD%E6%9C%89%E7%9A%84.json"
@@ -168,7 +149,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 17,
       "sha256": "abd0556bd201c78efb5fbf49d2f96ef69350ddc21d99c13790ee53f3ab70afe3",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%98%89%E8%B1%AA%E7%89%88.json"
@@ -187,7 +168,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 11,
       "sha256": "0f43658805e0935f07315e036e5889392061255f49004f6901628f43bebb0c2e",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%AD%A6%E7%94%9F%E8%9B%8B%E8%83%8C%E5%88%BA%E7%89%88.json"
@@ -206,7 +187,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 12,
       "sha256": "c7074ace158ece82de90507a51fb9ce812fa15501540cbfcf78f4921b66feaa8",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%BA%B7%E7%A5%9E%E5%BC%80%E6%92%AD%E4%BA%86%EF%BC%9F%E7%9C%9F%E7%9A%84%E5%81%87%E7%9A%84.json"
@@ -225,7 +206,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 35,
       "sha256": "bdf73228fc7524ee58ae57b737d04aa886a38c37cc44fe86b985788c7fdfe5ad",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%83%85%E8%AF%9D%E7%89%88.json"
@@ -244,7 +225,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 7,
       "sha256": "2b29bb5758d9a96ae6d65720517bdd2b39bee411fc9bcfdb10986ccca29da231",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%89%AB%E7%A6%8F%E7%91%9E%E8%A2%AB%E5%B9%B2%E7%89%88.json"
@@ -263,7 +244,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 6,
       "sha256": "5549d94ff3fcec6c53c757a1f50eb5a31293c4dff6bbbf4599fdbb7b4e8d769c",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%9A%B4%E5%8A%9B%E5%AE%A3%E4%BC%A0.json"
@@ -282,7 +263,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 39,
       "sha256": "07882cf6a6dcccb640f7a77bad72a6a16ee135780be0a2723c045dfdf1bdc808",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%A2%81%E5%8D%9A%E6%9B%BE%E7%BB%8F%E6%98%AF%E6%83%85%E4%BE%A3%E6%AD%8C%E8%AF%8D.json"
@@ -301,7 +282,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 40,
       "sha256": "729c40e2f91f9edc9fc9ad0aed93eefa775178341d7f6901ac1ace95116d5115",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%A2%81%E5%8D%9A%E8%A1%A8%E6%80%81%E6%AD%8C%E8%AF%8D.json"
@@ -320,7 +301,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 16,
       "sha256": "44584d6f589b5b1326016c7c5846a019547893334773c52f45b33947d3bfde27",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E6%AC%A3%E6%AC%A3%E7%9A%84%E7%B2%BE%E6%B6%B2%E7%89%88.json"
@@ -339,7 +320,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 7,
       "sha256": "af3e61fd605c277f666f824586d622ac48916b03a3da3fbf8d8c0ad29ac5c05e",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E7%86%8A%E4%BA%8C.json"
@@ -358,7 +339,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 15,
       "sha256": "b095e483a06a15236a7f68cf19e0795561fbf73cdb490a527c26662a65dbff1d",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E7%A5%9E%E7%A7%98%E9%9F%B3%E6%B8%B8%E8%80%81%E8%B5%84%E5%8E%86.json"
@@ -377,7 +358,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 18,
       "sha256": "bf060c09b654086e611bba6280c2ee6742f8ad59d3ad3610611087687a713c74",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E7%BB%BF%E7%8E%A9%20VIP%20%E5%A6%96%E7%8C%AB%E6%80%A5%E7%9C%BC%E7%89%88.json"
@@ -396,7 +377,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 16,
       "sha256": "83b458e1167134d8a1266034fb6bd17bac2a3052c63683be6fd5a65a3f84d491",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E8%92%B8%E8%92%B8%E6%97%A5%E4%B8%8A1.json"
@@ -415,7 +396,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 14,
       "sha256": "ad625f25e93f0aa4b0b5041160a7af08526d44f9fe24d35b313d0dfc48c60879",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E8%92%B8%E8%92%B8%E6%97%A5%E4%B8%8A2.json"
@@ -434,7 +415,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 9,
       "sha256": "81e3463febdb42a24d2e68815e954ee7128c52d0d9833588e517c1083cd3e5e7",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E8%9B%8B%E7%A5%9E%E7%A5%9E%E4%BA%86.json"
@@ -453,7 +434,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 23,
       "sha256": "2809eb75e4db390f816b790ea2a0e6fdc5bc6c98d6d0791cf35ce26302f0843d",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E8%BF%99%E6%98%AF%E4%B8%AA%E5%95%A5%E3%80%82.json"
@@ -472,7 +453,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 19,
       "sha256": "e619e54848e0d36abc059fd5273b747fbbca91eaf13f366ec00b4976844e46ae",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%9A%8F%E6%9C%BA%E8%AF%97%E8%AF%8D.json"
@@ -491,7 +472,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 100,
       "sha256": "3512060ae347b139a6c45e6f007881be517e28cbf0a0a4b6e7dadc9634a15b1f",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%9B%8C%E5%B0%8F%E9%AC%BCpromax%E7%89%88.json"
@@ -510,7 +491,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 8,
       "sha256": "e938dfdba1ad333763a45269fd7a3c4e075dcf2a1679f99fe6a9171d4093c4f0",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AA%9A%E8%AF%9D1.json"
@@ -529,7 +510,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 5,
       "sha256": "0cbcb0a3cfb459e5c8feeba07077983d66bc539a5d055cc6cd7d10e8e1a1a2eb",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AA%9A%E8%AF%9D%E4%B8%89%E4%BB%A3.json"
@@ -548,7 +529,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 10,
       "sha256": "84abeec07e3ebb041cfd90a3ab67872406804cf0f20dd0c7b09648d6ef4c4119",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AA%9A%E8%AF%9D%E4%BA%8C%E4%BB%A3.json"
@@ -567,7 +548,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 13,
       "sha256": "b383ae70c6198dbb5fb16c8812edd38e1e6f764e510f1ccd3e225b96d3ba14db",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AA%9A%E8%AF%9D%E5%9B%9B%E4%BB%A3.json"
@@ -586,7 +567,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 15,
       "sha256": "bb9f643df75e2c8ecc0afe936aaa4763fe6b49e82f67efbba5eefda072d0a3ed",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AC%BC%E7%AA%9D%E6%88%91%E7%88%B1%E4%BD%A0.json"
@@ -605,7 +586,7 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-26T12:09:26Z",
+      "updatedAt": "2026-05-25T13:17:03Z",
       "entryCount": 11,
       "sha256": "3577a741103f9baa91f56e59a385709018a2f45dcca1efe61b55a300e8151492",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%B2%91%E9%B1%BC%E5%A4%A7%E5%B8%9D.json"
