@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-26T12:28:51Z",
+  "generatedAt": "2026-05-26T14:52:18Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -191,6 +191,25 @@
       "entryCount": 12,
       "sha256": "c7074ace158ece82de90507a51fb9ce812fa15501540cbfcf78f4921b66feaa8",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%BA%B7%E7%A5%9E%E5%BC%80%E6%92%AD%E4%BA%86%EF%BC%9F%E7%9C%9F%E7%9A%84%E5%81%87%E7%9A%84.json"
+    },
+    {
+      "id": "强奸绿玩1",
+      "name": "强奸绿玩1",
+      "author": "花开富贵",
+      "summary": "强奸绿玩1",
+      "language": "zh-CN",
+      "tags": [
+        "killsay",
+        "community"
+      ],
+      "serverTags": [
+        "generic"
+      ],
+      "version": 1,
+      "updatedAt": "2026-05-26T14:52:18Z",
+      "entryCount": 17,
+      "sha256": "f2a5ac7e3b4e2333c4616b4b0c41a9333effc6b8bfe53c18352db1b589a0e9fa",
+      "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E5%BC%BA%E5%A5%B8%E7%BB%BF%E7%8E%A91.json"
     },
     {
       "id": "情话版",
