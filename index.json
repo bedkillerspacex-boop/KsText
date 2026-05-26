@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-26T12:25:45Z",
+  "generatedAt": "2026-05-26T12:28:39Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
       "name": "BWM歌曲1 bsk",
-      "author": "佚名",
+      "author": "bsk",
       "summary": "BWM广告歌曲宣传 停更",
       "language": "zh-CN",
       "tags": [
@@ -15,10 +15,10 @@
       "serverTags": [
         "generic"
       ],
-      "version": 2,
-      "updatedAt": "2026-05-25T13:17:03Z",
+      "version": 3,
+      "updatedAt": "2026-05-26T12:28:39Z",
       "entryCount": 26,
-      "sha256": "73257271456e9aaf4ca4e2a70c47707b719fb3e0f3e4552ab16799987cf4ea89",
+      "sha256": "f032ccf8b175d020fd95249a4bc73c8bce5f294c03df7dd6a9f9f0568630cab2",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B21%20bsk.json"
     },
     {
