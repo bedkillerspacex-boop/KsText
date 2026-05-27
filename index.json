@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-27T15:01:57Z",
+  "generatedAt": "2026-05-27T15:04:44Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -328,7 +328,7 @@
     {
       "id": "神秘音游老资历",
       "name": "神秘音游老资历",
-      "author": "楠芳由瑟",
+      "author": "Ryorin",
       "summary": "KillSay全家福整合版",
       "language": "zh-CN",
       "tags": [
@@ -338,10 +338,10 @@
       "serverTags": [
         "generic"
       ],
-      "version": 3,
-      "updatedAt": "2026-05-27T15:01:54Z",
+      "version": 4,
+      "updatedAt": "2026-05-27T15:04:41Z",
       "entryCount": 15,
-      "sha256": "aec0e5009c38d7c45e293900edc46d96a12be8491a3342e3fd4664fd7160ce7c",
+      "sha256": "c1aea6841b1b7ffe0891e8955bd594c5054dec90ae376e6587db2cd0633de7f3",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E7%A5%9E%E7%A7%98%E9%9F%B3%E6%B8%B8%E8%80%81%E8%B5%84%E5%8E%86.json"
     },
     {
@@ -423,7 +423,7 @@
     {
       "id": "这是个啥。",
       "name": "这是个啥。",
-      "author": "楠芳由瑟",
+      "author": "Ryorin",
       "summary": "KillSay全家福整合版",
       "language": "zh-CN",
       "tags": [
@@ -433,10 +433,10 @@
       "serverTags": [
         "generic"
       ],
-      "version": 3,
-      "updatedAt": "2026-05-27T15:01:54Z",
+      "version": 4,
+      "updatedAt": "2026-05-27T15:04:41Z",
       "entryCount": 23,
-      "sha256": "d972410be7dd844363cc9958d3b2de0d5869215a52f2278cbd6bad7d7d7e2ecf",
+      "sha256": "1350e11d758aff2f7c2bb14d47d5c39b74c895c326c764230b33a587d083175f",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E8%BF%99%E6%98%AF%E4%B8%AA%E5%95%A5%E3%80%82.json"
     },
     {
