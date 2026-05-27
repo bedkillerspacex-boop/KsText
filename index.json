@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-27T15:04:44Z",
+  "generatedAt": "2026-05-27T16:35:12Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -39,6 +39,25 @@
       "entryCount": 35,
       "sha256": "5986dafbc708f128061debdc51155d05480c29f94cdbcd368369c17f4c3df1e0",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B2%E4%BA%8C%E4%BB%A3.json"
+    },
+    {
+      "id": "grok爱绿玩tv1",
+      "name": "grok爱绿玩tv1",
+      "author": "grokAi",
+      "summary": "grok爱绿玩tv1",
+      "language": "zh-CN",
+      "tags": [
+        "killsay",
+        "community"
+      ],
+      "serverTags": [
+        "generic"
+      ],
+      "version": 1,
+      "updatedAt": "2026-05-27T16:35:10Z",
+      "entryCount": 10,
+      "sha256": "9af83268339a68333c8e7c03df133742304c4e8716257142441e67e325b183cc",
+      "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/grok%E7%88%B1%E7%BB%BF%E7%8E%A9tv1.json"
     },
     {
       "id": "pe小子真实记录",

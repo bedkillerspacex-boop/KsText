@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "grok爱绿玩tv1",
+  "name": "grok爱绿玩tv1",
+  "author": "grokAi",
+  "version": 1,
+  "updatedAt": "2026-05-27T16:35:10Z",
+  "description": "grok爱绿玩tv1",
+  "language": "zh-CN",
+  "tags": [
+    "killsay",
+    "community"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "@{name} 这绿玩飞舞玩意儿，玩你老风呢？只会逃的废物",
+    "@{name} 只会逃逸的臭飞舞，你全家是不是私了F啊",
+    "@{name} 绿玩儿子，被我大叠抽打只能无能狂怒，懂？",
+    "@{name} 我直接击毙你全价！方块人疯狂墙健你老风",
+    "@{name} 钻石剑茶进你老风福里面，给你破防出汁",
+    "@{name} 末影珍珠赛你老风港门里面做港塞，飞舞东西",
+    "@{name} 绿玩飞舞，被我虐得原地螺旋升天，舒服不？",
+    "@{name} 私风绿玩，给你老风扫沐，这是事例",
+    "@{name} 只会后退的垃圾绿玩，钻石剑直接穿你老风福",
+    "@{name} 飞舞儿子，玩你老风全家！被我杀到删号重练"
+  ]
+}
