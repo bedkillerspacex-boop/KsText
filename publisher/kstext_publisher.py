@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import subprocess
 import sys
 import threading
@@ -215,6 +216,10 @@ def default_remote_url(owner_repo: str) -> str:
     return f"https://github.com/{normalize_owner_repo(owner_repo)}.git"
 
 
+def target_display(owner_repo: str, branch: str, repo_dir: Path) -> str:
+    return f"{normalize_owner_repo(owner_repo)}@{clean_string(branch) or DEFAULT_BRANCH} -> {repo_dir}"
+
+
 def ensure_repo_dir(path_text: str) -> Path:
     repo_dir = Path(path_text).expanduser()
     if not repo_dir.exists():
@@ -416,7 +421,6 @@ def load_pack_documents(repo_dir: Path) -> tuple[list[PackDocument], dict[str, d
     existing_by_id = load_existing_index(repo_dir / "index.json")
     documents: list[PackDocument] = []
     warnings: list[str] = []
-
     for pack_file in collect_pack_files(repo_dir):
         data = read_json(pack_file)
         file_id = clean_string(data.get("id")) or pack_file.stem
@@ -563,12 +567,7 @@ def build_index_from_documents(
     packs.sort(key=lambda item: item["name"].lower())
     return BuildResult(
         index_data={"schemaVersion": 1, "generatedAt": generated_at, "packs": packs},
-        stats=BuildStats(
-            total_packs=len(packs),
-            changed_packs=changed_packs,
-            new_packs=new_packs,
-            unchanged_packs=unchanged_packs,
-        ),
+        stats=BuildStats(len(packs), changed_packs, new_packs, unchanged_packs),
         warnings=warnings,
     )
 
@@ -636,9 +635,8 @@ def run_git_push_with_progress(repo_dir: Path, branch: str, progress_callback=No
                 if progress:
                     progress_callback(*progress)
 
-    return_code = process.wait()
     output_text = "\n".join(chunks).strip()
-    if return_code != 0:
+    if process.wait() != 0:
         raise PublishError(output_text or "git push 失败")
     return output_text
 
@@ -652,23 +650,17 @@ def run_cli(args: argparse.Namespace) -> int:
     owner_repo = normalize_owner_repo(args.owner_repo or DEFAULT_OWNER_REPO)
     branch = args.branch or DEFAULT_BRANCH
     repo_dir = Path(args.repo).expanduser() if args.repo else cache_dir_for_repo(owner_repo)
-    if repo_dir == DEFAULT_REPO_CACHE_ROOT:
-        repo_dir = cache_dir_for_repo(owner_repo)
     sync_cached_repo(repo_dir, owner_repo, branch)
     repo_dir = ensure_repo_dir(str(repo_dir))
-
     documents, _, _, result = prepare_publish_assets(repo_dir, owner_repo, branch, not args.no_bump_version)
     print(build_summary(result))
     for warning in result.warnings:
         print(f"[warn] {warning}")
-
     if args.dry_run and not args.write_index and not args.commit and not args.push:
         return 0
-
     if args.write_index or args.commit or args.push:
         save_all_pack_documents(documents)
         print(f"已写入 {write_index_file(repo_dir, result)}")
-
     if args.commit or args.push:
         run_git(repo_dir, "add", "index.json", "packs")
         if git_status(repo_dir):
@@ -690,6 +682,7 @@ class PublisherApp(Tk):
         self.owner_repo_var = StringVar(value=DEFAULT_OWNER_REPO)
         self.branch_var = StringVar(value=DEFAULT_BRANCH)
         self.repo_var = StringVar(value=str(cache_dir_for_repo(DEFAULT_OWNER_REPO)))
+        self.target_var = StringVar(value="")
         self.message_var = StringVar(value="update KsText packs")
         self.bump_var = BooleanVar(value=True)
         self.summary_var = StringVar(value="未扫描")
@@ -721,6 +714,7 @@ class PublisherApp(Tk):
         self._build_widgets()
         self._bind_dirty_tracking()
         self.github_status_var.set(infer_github_login_status())
+        self.refresh_target_display()
         self.start_sync(sync_and_scan=True)
 
     def _build_widgets(self) -> None:
@@ -748,8 +742,11 @@ class PublisherApp(Tk):
         ttk.Label(form, textvariable=self.github_status_var).grid(row=3, column=1, columnspan=2, sticky=W, padx=8, pady=4)
         ttk.Button(form, text="刷新登录", command=self.refresh_github_status).grid(row=3, column=3, sticky="ew", pady=4)
 
+        ttk.Label(form, text="当前目标").grid(row=4, column=0, sticky=W, pady=4)
+        ttk.Label(form, textvariable=self.target_var).grid(row=4, column=1, columnspan=3, sticky=W, padx=8, pady=4)
+
         ttk.Checkbutton(form, text="变更包自动升级 version", variable=self.bump_var).grid(
-            row=4, column=0, columnspan=4, sticky=W, pady=(4, 8)
+            row=5, column=0, columnspan=4, sticky=W, pady=(4, 8)
         )
 
         action_bar = ttk.Frame(frame)
@@ -757,6 +754,7 @@ class PublisherApp(Tk):
         self.action_buttons = [
             ttk.Button(action_bar, text="扫描仓库", command=self.scan_repository),
             ttk.Button(action_bar, text="缓存目录", command=self.show_cache_dir),
+            ttk.Button(action_bar, text="清理当前缓存", command=self.cleanup_current_cache),
             ttk.Button(action_bar, text="新建包", command=self.create_pack),
             ttk.Button(action_bar, text="删除包", command=self.delete_pack),
             ttk.Button(action_bar, text="保存当前包", command=self.save_current_metadata),
@@ -802,7 +800,6 @@ class PublisherApp(Tk):
         editor = ttk.LabelFrame(right, text="当前包", padding=12)
         editor.pack(fill="x")
         editor.columnconfigure(1, weight=1)
-
         ttk.Label(editor, text="文件").grid(row=0, column=0, sticky=W, pady=4)
         ttk.Label(editor, textvariable=self.pack_file_var).grid(row=0, column=1, sticky=W, pady=4)
         ttk.Label(editor, text="ID").grid(row=1, column=0, sticky=W, pady=4)
@@ -936,8 +933,35 @@ class PublisherApp(Tk):
         self.repo_var.set(str(repo_dir))
         return repo_dir
 
+    def refresh_target_display(self) -> None:
+        self.target_var.set(target_display(self.owner_repo_var.get(), self.branch_var.get(), self.current_cache_repo_dir()))
+
     def show_cache_dir(self) -> None:
         messagebox.showinfo("KsText Publisher", f"当前仓库缓存目录:\n{self.current_cache_repo_dir()}", parent=self)
+
+    def cleanup_current_cache(self) -> None:
+        if self.busy:
+            return
+        repo_dir = self.current_cache_repo_dir()
+        if not repo_dir.exists():
+            messagebox.showinfo("KsText Publisher", f"缓存目录不存在:\n{repo_dir}", parent=self)
+            return
+        if not messagebox.askyesno("KsText Publisher", f"确定清理当前缓存仓库吗？\n{repo_dir}", parent=self):
+            return
+        try:
+            shutil.rmtree(repo_dir)
+            self.pack_documents = []
+            self.pack_warnings = []
+            self.existing_by_id = {}
+            self.current_index = None
+            self.rebuild_tree()
+            self.clear_log()
+            self.log(f"已清理缓存仓库: {repo_dir}")
+            self.set_base_summary("当前缓存已清理")
+            self.reset_dirty_state()
+            self.set_progress_status("空闲", 0)
+        except Exception as exc:
+            messagebox.showerror("KsText Publisher", str(exc))
 
     def refresh_github_status(self) -> None:
         self.github_status_var.set(infer_github_login_status())
@@ -946,6 +970,7 @@ class PublisherApp(Tk):
         if self.busy:
             return
         self.pending_sync_reload = sync_and_scan
+        self.refresh_target_display()
         self.set_busy(True, "准备同步仓库")
         repo_dir = self.current_cache_repo_dir()
         owner_repo = normalize_owner_repo(self.owner_repo_var.get() or DEFAULT_OWNER_REPO)
@@ -977,6 +1002,7 @@ class PublisherApp(Tk):
         self.owner_repo_var.set(owner_repo)
         self.branch_var.set(branch)
         self.repo_var.set(str(cache_dir_for_repo(owner_repo)))
+        self.refresh_target_display()
         return ensure_repo_dir(str(self.current_cache_repo_dir())), owner_repo, branch
 
     def persist_form_to_current(self) -> None:
@@ -1254,6 +1280,7 @@ class PublisherApp(Tk):
                     self.owner_repo_var.set(normalize_owner_repo(owner_repo))
                     self.branch_var.set(branch)
                     self.repo_var.set(str(repo_dir))
+                    self.refresh_target_display()
                     self.github_status_var.set(infer_github_login_status())
                     self.log(str(message))
                     self.set_base_summary(f"已同步: {repo_dir}")
