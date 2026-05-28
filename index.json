@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-27T16:35:12Z",
+  "generatedAt": "2026-05-28T12:13:10Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -91,10 +91,10 @@
       "serverTags": [
         "generic"
       ],
-      "version": 1,
-      "updatedAt": "2026-05-27T12:45:53Z",
-      "entryCount": 40,
-      "sha256": "5695bab5d32a6eb798dc8561ea78ec13be46b8e50cce63e0d7b5dcd9e1d66192",
+      "version": 2,
+      "updatedAt": "2026-05-28T12:13:08Z",
+      "entryCount": 43,
+      "sha256": "b85acd5b64facdd4d1aa32bf0e5968dccc0c888be7750261c4f5d717e761a5b4",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E4%B8%BB%E6%92%AD%E8%83%A1%E5%A7%AC.json"
     },
     {
