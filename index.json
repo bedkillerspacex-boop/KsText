@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-28T12:13:40Z",
+  "generatedAt": "2026-05-28T12:14:39Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -41,10 +41,10 @@
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/BWM%E6%AD%8C%E6%9B%B2%E4%BA%8C%E4%BB%A3.json"
     },
     {
-      "id": "grok爱绿玩tv1",
-      "name": "grok爱绿玩tv1",
+      "id": "grok爱绿玩tv1 布吉岛不可用",
+      "name": "grok爱绿玩tv1布吉岛不可用",
       "author": "grokAi",
-      "summary": "grok爱绿玩tv1",
+      "summary": "grok爱绿玩tv1布吉岛不可用",
       "language": "zh-CN",
       "tags": [
         "killsay",
@@ -54,9 +54,9 @@
         "generic"
       ],
       "version": 1,
-      "updatedAt": "2026-05-27T16:35:10Z",
+      "updatedAt": "2026-05-28T12:14:37Z",
       "entryCount": 10,
-      "sha256": "9af83268339a68333c8e7c03df133742304c4e8716257142441e67e325b183cc",
+      "sha256": "c906a396904ce2299c4367aa2a003a03304227025e7a97163e4e0bbfb1be4244",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/grok%E7%88%B1%E7%BB%BF%E7%8E%A9tv1.json"
     },
     {
