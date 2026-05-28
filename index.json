@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-28T12:14:39Z",
+  "generatedAt": "2026-05-28T16:26:41.347Z",
   "packs": [
     {
       "id": "bwm歌曲1-bsk",
@@ -377,9 +377,9 @@
         "generic"
       ],
       "version": 2,
-      "updatedAt": "2026-05-25T13:17:03Z",
+      "updatedAt": "2026-05-28T16:26:26.410Z",
       "entryCount": 18,
-      "sha256": "5718a11a1a759c8ed997df343fb3b53058bf6b4088efad0a54d6d98817bbfd04",
+      "sha256": "f9cbdc71ff24a629af23d6c1149e798708dae256410d0497ac49fe6dd5b43bef",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E7%BB%BF%E7%8E%A9%20VIP%20%E5%A6%96%E7%8C%AB%E6%80%A5%E7%9C%BC%E7%89%88.json"
     },
     {
@@ -571,44 +571,6 @@
       "entryCount": 13,
       "sha256": "d8cc26f726906d9a635316399a22cda5420cf0b95cac655d3763afaee0afd707",
       "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AA%9A%E8%AF%9D%E5%9B%9B%E4%BB%A3.json"
-    },
-    {
-      "id": "鬼窝我爱你",
-      "name": "鬼窝我爱你",
-      "author": "佚名",
-      "summary": "鬼窝我爱你",
-      "language": "zh-CN",
-      "tags": [
-        "killsay",
-        "community"
-      ],
-      "serverTags": [
-        "generic"
-      ],
-      "version": 2,
-      "updatedAt": "2026-05-25T13:17:03Z",
-      "entryCount": 15,
-      "sha256": "078a8be3333703c5a7a12cc06f177ce4d84513ce56e788f01f206ebdcbf21d05",
-      "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%AC%BC%E7%AA%9D%E6%88%91%E7%88%B1%E4%BD%A0.json"
-    },
-    {
-      "id": "鲑鱼大帝",
-      "name": "鲑鱼大帝",
-      "author": "佚名",
-      "summary": "鲑鱼大帝",
-      "language": "zh-CN",
-      "tags": [
-        "killsay",
-        "community"
-      ],
-      "serverTags": [
-        "generic"
-      ],
-      "version": 2,
-      "updatedAt": "2026-05-25T13:17:03Z",
-      "entryCount": 11,
-      "sha256": "5aea160b52e809465da44833b8e932e074037e32f27e4ce84a77a592f8e2e62f",
-      "downloadUrl": "https://raw.githubusercontent.com/bedkillerspacex-boop/KsText/master/packs/%E9%B2%91%E9%B1%BC%E5%A4%A7%E5%B8%9D.json"
     }
   ]
 }
