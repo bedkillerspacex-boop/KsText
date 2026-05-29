@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "测试，无作用",
+  "name": "测试，无作用",
+  "author": "测试，无作用",
+  "version": 1,
+  "updatedAt": "2026-05-29T10:55:02Z",
+  "description": "测试，无作用",
+  "language": "zh-CN",
+  "tags": [
+    "TEST"
+  ],
+  "serverTags": [
+    "generic"
+  ],
+  "entries": [
+    "测试，无作用"
+  ]
+}
